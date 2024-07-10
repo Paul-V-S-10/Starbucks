@@ -1,98 +1,126 @@
 .navbar {
     display: flex;
-    padding: 13px 20px 13px 20px;
+    padding: 13px 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    align-items: center;
+    justify-content: space-between;
+}
 
-    .logo {
-        margin-right: 30px;
+.logo {
+    margin-right: 30px;
+}
 
-        img {
-            width: 65px;
-        }
+.logo img {
+    width: 65px;
+}
 
-        p {
-            font-size: 5px;
-            color: #008248;
-            position: relative;
-            left: 45px;
-            bottom: 15px;
-        }
-    }
+.logo p {
+    font-size: 5px;
+    color: #008248;
+    position: relative;
+    left: 45px;
+    bottom: 15px;
+}
 
-    .links {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
 
-        .toggleWrapper {
-            display: flex;
-            align-items: center;
-            margin-right: 20px;
+.toggleWrapper {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
 
-            .toggle {
-                margin-right: 20px;
-                cursor: pointer;
-                font-size: 13px;
-                font-weight: 700;
-                letter-spacing: 2px;
-            }
+.toggle {
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
 
-            .toggle:hover {
-                color: #008248;
-            }
-        }
+.toggle:hover {
+    color: #008248;
+}
 
-        .buttonsWrapper {
-            display: flex;
-            align-items: center;
-            margin-right: 20px;
+.buttonsWrapper {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
 
-            .button {
-                display: flex;
-                margin-right: 20px;
-                cursor: pointer;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: 0.5px;
+.button {
+    display: flex;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
 
-                .locationIcon {
-                    font-size: 24px;
-                    margin-right: 5px;
-                    position: relative;
-                    bottom: 5px;
-                }
-            }
+.locationIcon {
+    font-size: 24px;
+    margin-right: 5px;
+    position: relative;
+    bottom: 5px;
+}
 
-            .location {
-                padding-right: 50px;
-            }
+.location {
+    padding-right: 50px;
+}
 
-            .location:hover {
-                color: #008248;
-            }
+.location:hover {
+    color: #008248;
+}
 
-            .borderBlack {
-                border: 1px solid black;
-                padding: 8px 15px 8px 15px;
-                border-radius: 50px;
-            }
+.borderBlack {
+    border: 1px solid black;
+    padding: 8px 15px;
+    border-radius: 50px;
+}
 
-            .borderBlack:hover {
-                background-color: rgb(229, 229, 229);
-            }
+.borderBlack:hover {
+    background-color: rgb(229, 229, 229);
+}
 
-            .bgBlack {
-                background-color: black;
-                padding: 8px 15px 8px 15px;
-                border: 1px solid black;
-                border-radius: 50px;
-                color: white;
-            }
+.bgBlack {
+    background-color: black;
+    padding: 8px 15px;
+    border: 1px solid black;
+    border-radius: 50px;
+    color: white;
+}
 
-            .bgBlack:hover {
-                background-color: rgb(76, 76, 76);
-            }
-        }
-    }
+.bgBlack:hover {
+    background-color: rgb(76, 76, 76);
+}
+
+.menuIcon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.sliderMenu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 250px;
+    background: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.closeMenu {
+    align-self: flex-end;
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 20px;
 }

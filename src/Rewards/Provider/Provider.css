@@ -1,3 +1,5 @@
+.container{
+
 .provider{
 background-image: url('rewardsBackground.png');
 background-size: cover; /* Ensure the image covers the container */
@@ -88,4 +90,26 @@ padding: 30px;
         }
         
     }
+}
+.question{
+    padding: 150px;
+    h2{
+        color: black;
+        line-height: 80px;
+        font-size: 30px;
+
+    }
+    p{
+        max-width: 600px;
+        color: rgb(33,33,33);
+        line-height: 25px;
+        .green-underline{
+            text-decoration: underline;
+            color: #008248;
+        }
+        .green-underline:hover{
+            text-decoration: none;
+        }
+    }
+}
 }

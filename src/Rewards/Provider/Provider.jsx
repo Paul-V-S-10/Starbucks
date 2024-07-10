@@ -1,8 +1,11 @@
 import React from 'react'
 import './Provider.css'
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Provider = () => {
     return (
+        <div className="container">
+
         <div className='provider'>
             <div className='providerWrapper'>
 
@@ -27,6 +30,12 @@ const Provider = () => {
                 <button>Join Starbucks® Rewards</button>
             </div>
         </div>
+        <div className="question">
+            <h2>Questions?</h2>
+            <p>We want to help in any way we can. You can ask your barista anytime or we’ve answered the most commonly asked terms <span className='green-underline'>right over here <FaExternalLinkAlt /></span>.</p>
+        </div>
+        </div>
+
     )
 }
 

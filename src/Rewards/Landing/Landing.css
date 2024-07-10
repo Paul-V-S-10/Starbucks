@@ -1,0 +1,59 @@
+.landing {
+    background-color: #d4e9e2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Allow items to wrap to the next line if necessary */
+
+    .content {
+        font-size: 20px;
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+        padding: 32px 24px;
+
+        h1 {}
+
+        p {}
+
+        button {
+            margin-top: 10px;
+            background-color: #008248;
+            color: white;
+            border: none;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 16px;
+            cursor: pointer;
+            width: fit-content;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: rgb(54, 131, 97);
+            cursor: pointer;
+            
+        }
+
+        p {
+            .underline {
+                text-decoration: underline;
+            }
+
+            .underline:hover {
+                text-decoration: none;
+                cursor: pointer;
+            }
+        }
+    }
+
+    img {
+        width: 700px;
+        height: auto;
+        /* margin-left: 20px; */
+    }
+
+
+}

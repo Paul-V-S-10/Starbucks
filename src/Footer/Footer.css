@@ -1,9 +1,62 @@
 .footer{
+    .desWrapper{
+
+        display: flex;
+        justify-content: space-around;
+        .des{
+            max-width: 200px;
+            .desHeader{
+                color: rgb(33,33,33);
+                padding-top: 40px;
+                font-size: 20px;
+                
+                
+            }
+            .desContent{
+                color: rgb(107,107,107);
+                display: flex;
+                padding-top: 30px;
+            }
+            .desContent:hover{
+                color: rgb(33,33,33);
+            }
+        }
+    }
     .footerHr{
         border: 0;
         height: 2px;           /* Set the height of the line */
         background: rgb(224,224,224);      /* Set the color of the line */
-        margin: 50px 0px;
+        margin: 50px 40px;
         border-radius: 5px; 
+    }
+    .infoWrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 0 40px;
+        .social{
+            display: flex;
+            .socialIcons{
+                font-size: 30px;
+                margin-right: 10px;
+                cursor: pointer;
+                border-radius: 50%;
+            }
+        }
+        .info{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            .infoContent{
+                color: rgb(33,33,33);
+            }
+            .infoContent:hover{
+                text-decoration: underline;
+            }
+        }
+        .reserve{
+            color: rgb(107,107,107);
+            margin-bottom: 180px;
+        }
     }
 }
