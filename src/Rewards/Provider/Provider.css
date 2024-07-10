@@ -1,7 +1,8 @@
 .container{
 
 .provider{
-background-image: url('rewardsBackground.png');
+/* background-image: url('rewardsBackground.png'); */
+background-color: rgb(14,77,58);
 background-size: cover; /* Ensure the image covers the container */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent the image from repeating */
