@@ -17,7 +17,7 @@
     }
 
     .star {
-        color: rgb(203, 162, 87);
+        color: rgb(203, 162, 87) !important;
         font-size: 13px
     }
 
