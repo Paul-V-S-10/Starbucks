@@ -113,3 +113,25 @@ padding: 30px;
     }
 }
 }
+@media (max-width: 768px) {
+    .container{
+
+        .provider{
+            padding: 0px;
+        }
+        .question{
+            padding: 50px;
+        }
+    }
+}
+@media (max-width: 480px) {
+    .container{
+
+        .provider{
+            padding: 0px;
+        }
+        .question{
+            padding: 20px;
+        }
+    }
+}

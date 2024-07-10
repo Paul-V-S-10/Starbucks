@@ -1,4 +1,4 @@
-.footer{
+/* .footer{
     .desWrapper{
 
         display: flex;
@@ -24,8 +24,8 @@
     }
     .footerHr{
         border: 0;
-        height: 2px;           /* Set the height of the line */
-        background: rgb(224,224,224);      /* Set the color of the line */
+        height: 2px;          
+        background: rgb(224,224,224);      
         margin: 50px 40px;
         border-radius: 5px; 
     }
@@ -59,4 +59,101 @@
             margin-bottom: 180px;
         }
     }
-}
+} */
+
+.footer {
+    .desWrapper {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap; /* Added for responsiveness */
+      .des {
+        max-width: 200px;
+        .desHeader {
+          color: rgb(33, 33, 33);
+          padding-top: 40px;
+          font-size: 20px;
+          cursor: pointer;
+        }
+        .desContentWrapper {
+          display: flex;
+          flex-direction: column;
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.3s ease;
+          &.expanded {
+            max-height: 200px; /* Adjust height as needed */
+          }
+        }
+        .desContent {
+          color: rgb(107, 107, 107);
+          padding-top: 30px;
+          transition: color 0.3s ease;
+        }
+        .desContent:hover {
+          color: rgb(33, 33, 33);
+        }
+      }
+    }
+    .footerHr {
+      border: 0;
+      height: 2px;
+      background: rgb(224, 224, 224);
+      margin: 50px 40px;
+      border-radius: 5px;
+    }
+    .infoWrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      padding: 0 20px; /* Adjust padding for responsiveness */
+      .social {
+        display: flex;
+        justify-content: center; /* Center social icons */
+        .socialIcons {
+          font-size: 30px;
+          margin: 0 10px; /* Adjust margin for spacing */
+          cursor: pointer;
+          border-radius: 50%;
+        }
+      }
+      .info {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        .infoContent {
+          color: rgb(33, 33, 33);
+          transition: color 0.3s ease;
+          cursor: pointer;
+        }
+        .infoContent:hover {
+          text-decoration: underline;
+        }
+      }
+      .reserve {
+        color: rgb(107, 107, 107);
+        text-align: center; /* Center align reserve text */
+        margin-bottom: 20px; /* Adjust margin for spacing */
+      }
+    }
+  
+    /* Media Query for small screens */
+    @media (max-width: 768px) {
+      .desWrapper {
+        flex-direction: column;
+        padding: 20px;
+        .des {
+          max-width: 100%; /* Adjust width for responsiveness */
+          .desHeader {
+            padding-top: 20px; /* Adjust padding */
+          }
+          .desContentWrapper {
+            max-height: 100%; /* Show content fully */
+            overflow: visible;
+          }
+          .desContent {
+            padding-top: 15px; /* Adjust padding */
+          }
+        }
+      }
+    }
+  }
