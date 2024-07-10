@@ -1,0 +1,91 @@
+.provider{
+background-image: url('rewardsBackground.png');
+background-size: cover; /* Ensure the image covers the container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+text-align: center;
+line-height: 2;
+padding: 30px;
+.providerWrapper{
+    padding: 80px 20px;
+    background-color: #d4e9e2;
+        
+        .getStarted {
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .getStarted h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        .getStarted p {
+            max-width: 630px;
+        }
+        
+        .cardWrapper {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap; /* Ensure wrapping on smaller screens */
+            /* gap: 20px;  */
+        }
+        
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+            min-width: 250px; 
+            max-width: 300px; 
+            background: transparent;
+            border-radius: 10px;
+            text-align: left; /* Align text to the left inside cards */
+        }
+        
+        .card img {
+            width: 200px; /* Set a specific width for the images */
+            height: auto; /* Maintain aspect ratio */
+            margin: 0 auto; /* Center the image horizontally */
+            display: block; /* Ensure image is centered */
+            border-radius: 10px 10px 0 0;
+        }
+        
+        
+        
+        .card p {
+            
+            line-height: 1.6;
+            text-align: center;
+            .g-underline {
+                text-decoration: underline;
+                color: #008248;
+            }
+            
+            .g-underline:hover {
+                text-decoration: none;
+            }
+        }
+        button {
+            margin-top: 10px;
+            background-color: rgb(1,117,74);
+            color: white;
+            border: none;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 16px;
+            cursor: pointer;
+            width: fit-content;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: rgb(37,129,89);
+            cursor: pointer;
+            
+        }
+        
+    }
+}

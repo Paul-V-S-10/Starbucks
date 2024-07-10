@@ -1,0 +1,9 @@
+.footer{
+    .footerHr{
+        border: 0;
+        height: 2px;           /* Set the height of the line */
+        background: rgb(224,224,224);      /* Set the color of the line */
+        margin: 50px 0px;
+        border-radius: 5px; 
+    }
+}
