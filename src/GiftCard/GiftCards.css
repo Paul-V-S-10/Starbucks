@@ -1,0 +1,178 @@
+.giftCards{
+    h3{
+        position: relative;
+        left: 50px;
+        width: 50%;
+    }
+    padding-top: 50px;
+    .carouselImg{
+        max-width: 250px; /* Set a maximum width for uniformity */
+        height: 150px; /* Set a maximum height for uniformity */
+        margin: 20px 10px;
+        border: none;
+        border-radius: 10px;
+        transition: transform 0.3s ease; /* Smooth transition for transform */
+        filter: blur(2px); 
+        opacity: 0.3;
+    }
+    .active {
+        filter: none;
+        opacity: 1;
+    }
+    .slide{
+        
+    }
+    /* CarouselArrows.css */
+    
+    .custom-arrow {
+        position: absolute;
+        z-index: 2;
+        top: calc(50% - 15px);
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        background-color: white;
+        border: none;
+        border-radius: 50%;
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(102, 102, 102);
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    
+    .custom-prev-arrow {
+        left: 20px;
+    }
+    
+    .custom-next-arrow {
+        right: 20px;
+    }
+    
+    /* .message{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: rgb(237,235,233);
+        margin: 0 20px ;
+        border-radius: 10px;
+        padding: 20px;
+        gap: 20px;
+        img{
+            max-width: 50px;
+        }
+        p{
+
+        }
+    }
+    .cart{
+        display: flex;
+        justify-content: flex-start;
+        gap: 60px;
+        background-color: #d4e9e2;
+        padding: 50px;
+        margin-top: 30px;
+        h3{
+
+        }
+        p{
+            color: rgb(89,97,95);
+        }
+        .reloader{
+
+        }
+        .balance{
+
+        }
+        .terms{
+            color: #008248;
+            position: relative;
+            left: 250px;
+            top: 40px;
+        }
+    } */
+    .message{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: rgb(237,235,233);
+        margin: 0 20px;
+        border-radius: 10px;
+        padding: 10px 20px;
+        gap: 20px;
+        img{
+            max-width: 50px;
+        }
+        p{
+            /* Add styles for p if needed */
+        }
+    }
+    
+    /* .cart{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #d4e9e2;
+        padding: 20px;
+        margin-top: 30px;
+        h3{
+
+        }
+        p{
+            color: rgb(89,97,95);
+            min-width: 130px;
+        }
+        .reloader{
+            border: 1px solid black;
+            border-radius: 50px;
+            padding: 10px;
+            min-width: 105px;
+
+        }
+        .balance{
+            color: white;
+            background-color: black;
+            border-radius: 50px;
+            padding: 10px;
+            min-width: 108px;
+        }
+        .terms{
+            color: #008248;
+            position: relative;
+            left: 0;
+            top: 0;
+            align-self: flex-end;
+        }
+    } */
+    
+    /* Responsive Styles */
+    @media (min-width: 768px) {
+        /* .cart{
+            flex-direction: row;
+            justify-content: flex-start;
+            padding: 50px 10px;
+            gap: 60px;
+        }
+        .terms{
+            left: 250px;
+            top: 40px;
+            align-self: flex-start;
+        } */
+    }
+    
+    @media (min-width: 1024px) {
+        .message{
+            img{
+                max-width: 100px;
+            }
+        }
+        /* .cart{
+            padding: 50px;
+            gap: 60px;
+            flex-direction: row;
+        }
+        .terms{
+            left: 250px;
+            top: 40px;
+        } */
+    }
+}

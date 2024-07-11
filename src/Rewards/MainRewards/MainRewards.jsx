@@ -6,6 +6,7 @@ import Provider from '../Provider/Provider'
 import RewardsNavbar from '../RewardsNavbar/RewardsNavbar'
 import Landing from '../Landing/Landing'
 import AccountCreatingSteps from '../AccountCreatingSteps/AccountCreatingSteps'
+import Earnings from '../Earnings/Earnings'
 
 const MainRewards = () => {
     return (
@@ -15,6 +16,7 @@ const MainRewards = () => {
             <AccountCreatingSteps/>
             <Toogle />
             <Extras />
+            <Earnings/>
             <Provider />
         </div>
     )

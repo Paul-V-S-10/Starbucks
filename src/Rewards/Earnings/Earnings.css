@@ -1,0 +1,109 @@
+.earnings {
+    color: rgb(31, 31, 30);
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: rgb(242, 240, 234);
+}
+
+.headerWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.headerWrapper h2 {
+    /* Add any styles for h2 here */
+}
+
+.headerWrapper p {
+    max-width: 500px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.itemWrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.itemHeaderWrapper h2 {
+    font-size: 20px;
+}
+
+.itemHeaderWrapper p {
+    /* Add any styles for p here */
+}
+
+.itemContentWrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.itemContent {
+    display: flex;
+    gap: 15px;
+    max-width: 400px;
+}
+
+.itemContent img {
+    width: 100px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item h3 {
+    /* Add any styles for h3 here */
+}
+
+.item p {
+    line-height: 25px;
+    max-width: 400px;
+}
+
+.hrLine {
+    border: 0;
+    height: 2px;
+    background: rgb(224, 224, 224);
+    border-radius: 5px;
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .itemWrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .earnings {
+        padding: 60px 10px;
+    }
+    
+    .itemContentWrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .itemContent {
+        max-width: 100%;
+    }
+    
+    .item p {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Add any additional styles for this breakpoint */
+}

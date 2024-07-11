@@ -1,15 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Navbar from './Navbar/Navbar'
 import './main.css'
-import MainRewards from './Rewards/MainRewards/MainRewards'
-import Footer from './Footer/Footer'
+import { RouterProvider } from 'react-router-dom'
+import { router } from './Router'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <>
-    <Navbar /> 
-    <MainRewards/>
-    <Footer/>
-    </>
+    <RouterProvider router={router} />
 )
