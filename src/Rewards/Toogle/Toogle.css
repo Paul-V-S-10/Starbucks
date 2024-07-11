@@ -168,7 +168,7 @@
     }
 
     .tab-content img {
-        width: 400px;
+        max-width: 300px;
     }
     .tab-content-wrapper {
         text-align: center;
@@ -193,7 +193,6 @@
     } */
 
     .tab-content img {
-        width: 400px;
     }
 
     .tab-content h3 {
